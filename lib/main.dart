@@ -1,5 +1,7 @@
+
 import 'package:flutter/material.dart';
 
+import 'components/button_text_icon.dart';
 import 'components/button_icon.dart';
 import 'components/button_text.dart';
 import 'components/list_buttons.dart';
@@ -28,6 +30,7 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               ButtonIcon(),
               ButtonText(),
+              ButtonTextIcon(),
               ListButtons(),
             ],
           ),
